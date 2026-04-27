@@ -133,6 +133,7 @@ void CHelloDirect3DDlg::RenderScene()
 	m_d3d_Device->EndScene();
 	m_d3d_Device->Present(nullptr, nullptr, 0, nullptr);
 }
+
 BOOL CHelloDirect3DDlg::OnEraseBkgnd(CDC* pDC)
 {
 	// TODO: Add your message handler code here and/or call default
